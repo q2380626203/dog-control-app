@@ -1,0 +1,3 @@
+# Python 依赖包
+kivy>=2.0.0
+buildozer>=1.5.0
