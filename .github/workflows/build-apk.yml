@@ -52,7 +52,10 @@ jobs:
 
     - name: 构建 APK
       run: |
-        buildozer android debug
+        yes | buildozer android debug
+      env:
+        ANDROID_SDK_ROOT: /home/runner/.buildozer/android/platform/android-sdk
+        ANDROID_HOME: /home/runner/.buildozer/android/platform/android-sdk
 
     - name: 上传 APK
       uses: actions/upload-artifact@v4
