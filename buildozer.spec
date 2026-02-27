@@ -39,13 +39,13 @@ orientation = portrait
 # 全屏模式
 fullscreen = 0
 
-# 包含 SDK 库文件
-android.add_src = ../zsibot_sdk/lib/zsl-1/aarch64
+# 包含 SDK 库文件（暂时注释，需要将 SDK 文件添加到仓库）
+# android.add_src = ../zsibot_sdk/lib/zsl-1/aarch64
 
 # 添加原生库到 jniLibs
-android.add_jars =
-android.add_libs_armeabi_v7a =
-android.add_libs_arm64_v8a = ../zsibot_sdk/lib/zsl-1/aarch64/*.so
+# android.add_jars =
+# android.add_libs_armeabi_v7a =
+# android.add_libs_arm64_v8a = ../zsibot_sdk/lib/zsl-1/aarch64/*.so
 
 # 日志级别
 log_level = 2
