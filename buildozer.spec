@@ -29,6 +29,10 @@ android.api = 31
 android.minapi = 21
 android.ndk = 25b
 
+# Gradle 版本
+android.gradle_dependencies = com.android.tools.build:gradle:7.2.0
+android.accept_sdk_license = True
+
 # 应用图标和启动画面
 #icon.filename = %(source.dir)s/data/icon.png
 #presplash.filename = %(source.dir)s/data/presplash.png
